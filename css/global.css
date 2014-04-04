@@ -1,0 +1,214 @@
+/* This file will hold the main styles for your website. */
+/* This file will hold the main styles for your website. */
+/* This file is a base starter file with the regions and wrappers */
+/* pre-filled for easy identification. This style sheet also assumes */
+/* that the full-width wrappers are enabled for each zone */
+/*test */
+
+html,body { 
+  background: #eee url("http://test.oip.net/sites/default/files/absurdidad.png");
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  /*font-size : 0.875em;*/
+  font-size: 62.5%;
+  margin:0; 
+  padding:0; 
+
+}
+
+H1 {font-size : 2.4em}  /* displayed at 24px */
+H2 {font-size : 1.8em}  /* displayed at 18px */
+H3 {font-size : 1.5em}  /* displayed at 15px */
+H4 {font-size : 1.2em}  /* displayed at 12px */
+H5 {font-size : 1.1em}  /* displayed at 11px */
+H6 {font-size : 1.2em}  /* displayed at 12px */
+
+#block-listing-search {
+	}
+
+#page {
+	/*background-color: #FFFFFF;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	/*font-size : 0.85em;*/
+	}
+
+/*#zone-user-wrapper {
+	background-color: #FFFFFF;
+	}
+
+#zone-user {
+	background-color: #FFFFFF;
+	}
+
+#region-user-first {
+	background-color: #FFFFFF;
+	}
+
+#region-user-second {
+	background-color: #FFFFFF;
+	}
+
+#zone-branding-wrapper {
+	background-color: #FFFFFF;
+	}
+
+#zone-branding {
+	background-color: #FFFFFF;
+	}
+
+#region-branding {
+	background-color: #FFFFFF;
+	}
+
+#region-branding h1 { font-size : 2.5em; }
+#region-branding h2 { font-size : 2em; }
+#region-branding h6 { font-size : 1.2em; font-style : italic; }
+
+#zone-menu-wrapper {
+	background-color: #FFFFFF;
+	}
+
+#region-menu {
+	background-color: #FFFFFF;
+	}
+
+#zone-header-wrapper {
+	background-color: #FFFFFF;
+	}
+
+#zone-header {
+	background-color: #FFFFFF;
+
+#region-header-first {
+	background-color: #FFFFFF;
+	}
+
+#region-header-second { 
+	background-color: #FFFFFF;
+	}
+
+#zone-preface-wrapper {
+	background-color: #FFFFFF;
+	}
+
+#zone-preface {
+	background-color: #FFFFFF;
+	}
+
+#region-preface-first {
+	background-color: #FFFFFF;
+	}
+
+#region-preface-second {
+	background-color: #FFFFFF;
+	}
+
+#region-preface-third {
+	background-color: #FFFFFF;
+	}
+
+#zone-content {
+	background-color: #FFFFFF;
+	}
+
+#breadcrumb {
+	background-color: #FFFFFF;
+	}
+
+#messages {
+	background-color: #FFFFFF;
+	}
+
+#region-content {
+	background-color: #FFFFFF;
+	}
+
+#region-sidebar-first {
+	background-color: #FFFFFF;
+	}
+
+#region-sidebar-second {
+	background-color: #FFFFFF;
+	}
+
+#zone-postscript-wrapper {
+	background-color: #FFFFFF;
+	}
+
+#zone-postscript {
+	background-color: #FFFFFF;
+	}
+
+#region-postscript-first {
+	background-color: #FFFFFF;
+	}
+
+#region-postscript-second {
+	background-color: #FFFFFF;
+	}
+
+#region-postscript-third {
+	background-color: #FFFFFF;
+	}
+
+#region-postscript-fourth {
+	background-color: #FFFFFF;
+	}	
+
+#zone-footer-wrapper {
+	background-color: #FFFFFF;
+	}
+
+#zone-footer {
+	background-color: #FFFFFF;
+	}
+
+#region-footer-first {
+	background-color: #FFFFFF;
+	}
+
+#region-footer-second {
+	background-color: #FFFFFF;
+	}
+*/
+
+#zone-menu ul.nice-menu li{
+border-width: 0 1px 0 0;
+background-color: rgba(0, 98, 160, .65);
+padding: .5em 0;
+}
+
+#zone-menu a{
+	color: #F3F3F3;
+}
+
+@media screen and (max-width: 767px){
+	#zone-menu{
+		text-align: center;
+		background-color: rgba(0, 98, 160, .65);
+	}
+	#zone-menu ul.nice-menu li{
+		background-color: none;
+		
+	}
+}
+
+@media screen and (min-width: 694px){
+	#zone-menu li.first{
+		-webkit-border-top-left-radius: 10px;
+		-webkit-border-bottom-left-radius: 10px;
+		-moz-border-radius-topleft: 10px;
+		-moz-border-radius-bottomleft: 10px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	#zone-menu li.last{
+		-webkit-border-top-right-radius: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		-moz-border-radius-topright: 8px;
+		-moz-border-radius-bottomright: 8px;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+	}
+}

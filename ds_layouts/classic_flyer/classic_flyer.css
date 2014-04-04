@@ -1,0 +1,26 @@
+/**
+ * @file
+ * Display Suite Classic Flyer stylesheet.
+ */
+
+.ds-header {
+  /* Styles for the "header" region go here */
+}
+
+.ds-left {
+  /* Styles for the "left" region go here */
+  float: left;
+  width: 400px;
+  margin-left: 10px;
+}
+
+.ds-right {
+  /* Styles for the "right" region go here */
+  float: right;
+  width: 260px;
+}
+
+.ds-footer {
+  /* Styles for the "footer" region go here */
+  clear: both;
+}
