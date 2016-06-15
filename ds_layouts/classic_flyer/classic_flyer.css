@@ -10,14 +10,14 @@
 .ds-left {
   /* Styles for the "left" region go here */
   float: left;
-  width: 400px;
-  margin-left: 10px;
+  width: 580px;
+  margin-left: 5px;
 }
 
 .ds-right {
   /* Styles for the "right" region go here */
   float: right;
-  width: 260px;
+  width: 300px;
 }
 
 .ds-footer {
