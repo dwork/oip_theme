@@ -1,4 +1,4 @@
-name = 'OIP'
+name = 'oip'
 description = 'OIP theme'
 core = '7.x'
 engine = 'phptemplate'
